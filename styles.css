@@ -5,6 +5,18 @@ body{
     background-color:peachpuff;
 }
 
+#gameMode{
+    display: flex;
+    flex-direction: row;
+}
+
+.players{
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
 #board{
     display: flex;
     flex-direction: column;
