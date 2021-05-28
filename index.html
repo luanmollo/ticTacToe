@@ -11,7 +11,18 @@
     <div id="gameMode">
         <div class="players" id="playerVSComputer">Player VS Computer</div>
         <div class="players" id="playerVSPlayer">Player 1 VS Player 2</div>
-        <p id="gameModeChosen"></p>
+
+        <div class="names" id="playerVSComputerDiv">
+            <input type="text" placeholder="Ingresa tu nombre" id="playerName" class="textField">
+            <input type="button" value="Aceptar" id="playerVSComputerButton" class="button">
+        </div>
+        <div class="names" id="playerVSPlayerDiv">
+            <input type="text" placeholder="Ingresa el nombre del Player 1" id="player1Name" class="textField">
+            <input type="text" placeholder="Ingresa el nombre del Player 2" id="player2Name" class="textField">
+            <input type="button" value="Aceptar" id="playerVSPlayerButton" class="button">
+        </div>
+        <p id="playerVSComputerNames"></p>
+        <p id="playerVSPlayerNames"></p>
     </div>
     <div id="board">
         <div class="row">
@@ -32,6 +43,11 @@
     </div>
     <p id="result"></p>
     <div id="playAgainButton">Jugar de nuevo</div>
+
+    <div id="record">
+        <p id="recordText">Historial:<br/></p>
+        <div id="resetRecord">Reiniciar historial</div>
+    </div>
 
     <script src="tictactoe.js"></script>
 </body>

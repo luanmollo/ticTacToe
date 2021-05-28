@@ -17,6 +17,21 @@ body{
     cursor: pointer;
 }
 
+.names{
+    display: none;
+    flex-direction: column;
+}
+
+.textField{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.button{
+    height: 30px;
+}
+
 #board{
     display: flex;
     flex-direction: column;
@@ -50,4 +65,19 @@ body{
 
 #result{
     text-align: center;
+}
+
+#record{
+    display: none;
+}
+
+#recordText{
+    text-align: center;
+}
+
+#resetRecord{
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
 }
